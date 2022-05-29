@@ -1,6 +1,5 @@
-import { Anime } from '@shineiichijo/marika'; // const { Anime, Character, Manga } = require("@shineiichijo/marika")
+import { Anime } from '@shineiichijo/marika';
 import type { NextPage } from 'next';
-import { useEffect } from 'react';
 
 import { Header } from '../components/organisms/Header';
 
