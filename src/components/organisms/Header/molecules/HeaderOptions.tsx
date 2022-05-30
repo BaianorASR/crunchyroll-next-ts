@@ -1,3 +1,4 @@
+import { Button } from 'flowbite-react';
 import Image from 'next/image';
 import React from 'react';
 
@@ -7,16 +8,16 @@ import {
   HimeIcon,
   PremiumIcon,
   SearchIcon,
-} from '../../../assets/images';
+} from '../../../../assets/images';
 
 export function HeaderOptions() {
   return (
     <div className="flex items-center justify-center transition-all">
       <div className="flex flex-1 h-full pl-1 pr-2 w-[95.25px] items-center hover:bg-black">
         <div className="h-fit flex px-1">
-          <PremiumIcon className="fill-orange-400 w-6" />
+          <PremiumIcon className="fill-crunchyroll-300 w-6" />
         </div>
-        <p className="flex flex-col text-[10px] font-bold text-orange-400 p-1 justify-center">
+        <p className="flex flex-col text-[10px] font-bold text-crunchyroll-300 p-1 justify-center">
           TESTE
           <span>GRÁTIS</span>
           <span className="text-zinc-300">PREMIUM</span>
